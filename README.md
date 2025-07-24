@@ -1,6 +1,5 @@
 # FCFS Disk Scheduling Simulator
 
-### 📌 Author: Shathish M  
 
 **Subject**: Operating System  
 Disk Scheduling (C Programming)
