@@ -4,13 +4,12 @@
 **Subject**: Operating System  
 Disk Scheduling (C Programming)
 
----
 
 ## 🧠 Aim
 
 To simulate the **First-Come, First-Served (FCFS)** Disk Scheduling algorithm using C. The program calculates the total seek time based on the given request sequence and initial head position.
 
----
+
 
 ## 💡 Description
 
@@ -19,7 +18,6 @@ To simulate the **First-Come, First-Served (FCFS)** Disk Scheduling algorithm us
 - Gets the initial position of the disk head.
 - Calculates the **total seek time** required to fulfill all requests in order.
 
----
 
 ## 🛠️ Compilation Instructions
 
