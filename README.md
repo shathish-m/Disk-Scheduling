@@ -3,7 +3,7 @@
 
 ### 📌 Author: Shathish M   
 **Subject**: Operating System  
-**Assignment**: Disk Scheduling (C Programming)
+Disk Scheduling (C Programming)
 
 ---
 
