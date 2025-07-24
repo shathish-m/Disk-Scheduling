@@ -27,4 +27,12 @@ To simulate the **First-Come, First-Served (FCFS)** Disk Scheduling algorithm us
 Use any C compiler. For example, with `gcc`:
 
 ```bash
-gcc fcfs_disk.c -o fcfs_disk
+gcc disk_scheduling.c -o disk_scheduling
+
+
+## 📌 Algorithm Used
+FCFS (First-Come, First-Served):
+
+Services I/O requests in the order they arrive.
+
+Simple, non-optimized scheduling approach.
