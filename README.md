@@ -5,7 +5,6 @@ This Bash script automates the process of connecting to a Wi-Fi network on Linux
 
 This script helps simplify Wi-Fi connection management and demonstrates basic network automation with shell scripting and `nmcli`.
 
----
 
 ## Features
 - Checks if Wi-Fi is enabled and turns it on if disabled.
@@ -14,17 +13,26 @@ This script helps simplify Wi-Fi connection management and demonstrates basic ne
 - Connects to the specified Wi-Fi network with the provided password.
 - Provides status messages to indicate the progress and result.
 
----
 
 ## Prerequisites
 - Linux OS with NetworkManager (`nmcli`) installed (Ubuntu or compatible).
 - Bash shell.
 - Access rights to manage network connections.
 
----
 
-## Usage
+**Make the script executable:**
+$ chmod +x wifi_connect.sh
 
-1. **Clone or download the repository:**
+
+**Configure Wi-Fi credentials:**
+Open the script and replace the placeholders with your actual Wi-Fi SSID and password:
+
+
+**Run the script:**
+./wifi_connect.sh
+
+
+
+
 
 
