@@ -1,27 +1,30 @@
-# FCFS Disk Scheduling Simulator
+# Wi-Fi Connection Automation Script
+
+## Overview
+This Bash script automates the process of connecting to a Wi-Fi network on Linux (Ubuntu 64-bit) machines using the `nmcli` command-line tool. It checks the Wi-Fi status, turns it on if disabled, lists available Wi-Fi networks, and connects to a specified Wi-Fi SSID using provided credentials.
+
+This script helps simplify Wi-Fi connection management and demonstrates basic network automation with shell scripting and `nmcli`.
+
+---
+
+## Features
+- Checks if Wi-Fi is enabled and turns it on if disabled.
+- Lists available Wi-Fi networks in the terminal.
+- Checks if already connected to the specified SSID.
+- Connects to the specified Wi-Fi network with the provided password.
+- Provides status messages to indicate the progress and result.
+
+---
+
+## Prerequisites
+- Linux OS with NetworkManager (`nmcli`) installed (Ubuntu or compatible).
+- Bash shell.
+- Access rights to manage network connections.
+
+---
+
+## Usage
+
+1. **Clone or download the repository:**
 
 
-**Subject**: Operating System  
-Disk Scheduling (C Programming)
-
-
-## 🧠 Aim
-
-To simulate the **First-Come, First-Served (FCFS)** Disk Scheduling algorithm using C. The program calculates the total seek time based on the given request sequence and initial head position.
-
-
-
-## 💡 Description
-
-- Accepts the number of disk requests from the user.
-- Takes each disk request input.
-- Gets the initial position of the disk head.
-- Calculates the **total seek time** required to fulfill all requests in order.
-
-
-## 🛠️ Compilation Instructions
-
-Use any C compiler. For example, with `gcc`:
-
-```bash
-gcc fcfs_disk.c -o fcfs_disk
