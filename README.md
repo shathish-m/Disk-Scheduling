@@ -21,12 +21,10 @@ This script helps simplify Wi-Fi connection management and demonstrates basic ne
 
 
 **Make the script executable:**
-
 $ chmod +x wifi_connect.sh
 
 
 **Configure Wi-Fi credentials:**
-
 Open the script and replace the placeholders with your actual Wi-Fi SSID and password:
 
 
